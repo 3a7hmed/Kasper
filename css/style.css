@@ -13,19 +13,7 @@ a{
 .container {
     margin-left: auto;
     margin-right: auto;
-}
-  /* Medium */
-@media (min-width: 992px) {
-    .container {
-    width: 970px;
-    }
-}
-  /* Large */
-@media (min-width: 1200px) {
-    .container {
-    width: 1170px;
-    }
-}  
+} 
 /* start landing section */
 .frist-sec{
     background-image: url(../images/landing.jpg);
@@ -537,6 +525,8 @@ a{
     background-color: rgba(0, 200, 255, 0.6);
     width: 90%;
     margin: auto;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
 }
 .state .container .num .text div{
     text-align: center;
@@ -1030,3 +1020,16 @@ footer .container p{
     }
 }
 /* end footer*/
+
+  /* Medium */
+@media (min-width: 992px) {
+    .container {
+    width: 970px;
+    }
+}
+  /* Large */
+@media (min-width: 1200px) {
+    .container {
+    width: 1170px;
+    }
+} 
